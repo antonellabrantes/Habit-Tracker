@@ -26,10 +26,18 @@ hoy = datetime.now().strftime("%Y-%m-%d")
 
 if hoy not in historial:
     historial[hoy] = {
-        "Beber 2L de Agua": False,
-        "Hacer Ejercicio": False,
-        "Meditar 10 min": False,
-        "Programar": False
+        "No celular 1hr AM": False,
+        "Estiramientos": False,
+        "Afirmaciones": False,
+        "Skin Care AM": False,
+        "Tarot": False, 
+        "Spray pelo": False,
+        "Leer 5 min": False,
+        "Cremas": False,
+        "No celular 1hr PM": False,
+        "Pieza ordenada PM": False, 
+        "Skin Care PM": False
+
     }
 
 st.title("📊 Mi Habit Tracker Web")
