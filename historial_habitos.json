@@ -1,16 +1,17 @@
 {
     "2026-01-02": {
-        "No celular 1hr AM": False,
-        "Estiramientos": False,
-        "Afirmaciones": False,
-        "Skin Care AM": False,
-        "Tarot": False, 
-        "Spray pelo": False,
-        "Leer 5 min": False,
-        "Cremas": False,
-        "No celular 1hr PM": False,
-        "Pieza ordenada PM": False, 
-        "Skin Care PM": False
+        "No celular 1hr AM": false,
+        "Estiramientos": false,
+        "Afirmaciones": false,
+        "Skin Care AM": false,
+        "Tarot": false, 
+        "Spray pelo": false,
+        "Leer 5 min": false,
+        "Cremas": false,
+        "No celular 1hr PM": false,
+        "Pieza ordenada PM": false, 
+        "Skin Care PM": false
     }
 
 }
+
