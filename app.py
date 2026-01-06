@@ -120,7 +120,6 @@ hechos = sum(sum(h.values()) for h in [historial[d] for d in dias_semana if d in
 progreso = hechos / total_posible if total_posible > 0 else 0
 st.subheader(f"Cumplimiento Semanal: {int(progreso * 100)}%")
 st.progress(progreso)
-
 #if hoy not in historial:
 #    historial[hoy] = {
 #        "No celular 1hr AM": False,
@@ -136,4 +135,5 @@ st.progress(progreso)
 #        "Skin Care PM": False
 
 #    }
+
 
